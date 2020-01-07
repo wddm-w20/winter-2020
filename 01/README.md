@@ -86,3 +86,9 @@ Complete the following:
 - A few basic structural elements: `header`, `main`, `footer`, `nav`, `aside`, `div`, etc.
 - More inline elements: `abbr`, `sub`, `sup`, `code`, `pre`, `span`
 - HTML special characters
+
+
+https://code.visualstudio.com/
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/p
+https://stackoverflow.com/
+https://colours.neilorangepeel.com/
