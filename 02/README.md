@@ -39,5 +39,6 @@ Regardless of where you are linking from, the path is always the same because it
 - Fonts (google fonts)
 - Common text properties: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Text
     - `text-decoration`, `text-transform`, `word-spacing`, `letter-spacing`
+- Centering inline elements
 - Shadows:
     - `box-shadow`, `text-shadow`
