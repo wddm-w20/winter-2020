@@ -32,5 +32,12 @@ Regardless of where you are linking from, the path is always the same because it
 
 ## Still to come today
 - Review of your work
-- Section linkin with `<a href="#">`
-- Backgrounds
+- Section linking with `<a href="#">`
+- "rem" vs "em" (vs px, vs other)
+- Background properties
+- Gradients
+- Fonts (google fonts)
+- Common text properties: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Text
+    - `text-decoration`, `text-transform`, `word-spacing`, `letter-spacing`
+- Shadows:
+    - `box-shadow`, `text-shadow`
