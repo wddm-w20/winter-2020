@@ -1,0 +1,40 @@
+/* Categories of basic selectors:
+- all
+- type
+- class  <---
+- id
+*/
+
+* {
+  /* Dont use this */
+}
+
+body {
+  background-color: red;
+  background-color: #ff0000;
+  background-color: #f00;
+  background-color: hsl(0, 100%, 50%);
+  background-color: rgb(255,0,0);
+  background-color: lightgrey;
+  color: #333;
+  font-family: helvetica, arial, sans-serif;
+  line-height: 1.4;
+  /* background-image: url('../img/img_colormap.gif'); */
+  /* background-image: url('/img/img_colormap.gif'); */
+}
+
+
+.highlight { 
+  background-color: lightsalmon;
+  text-align: right;
+}
+
+.main-heading {
+  text-align: center;
+  font-weight: normal;
+  font-style: italic;
+}
+
+.address {
+  font-weight: 700;
+}
