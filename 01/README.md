@@ -63,11 +63,13 @@ All physical content (what we want the users to see) is created within the docum
 
 ### Chrome
 - `cmd + n`: New tab
-- Get to url bar
+- `cmd + l`: Highlight the url bar
 - `cmd + r`: Refresh
 - `cmd + i`: Developer tools (remember: `i` for "inspect")
 - `cmd + j`: Developer tools, console tab (remember: `j` for "javascript")
-- Tabbing
+- `ctrl + tab`: Cycle between tabs
+- `cmd + 1-8`: Highlight the first 8 tabs
+- `cmd + 9`: Highlight the last tab
 
 ## In-class practice lab
 Complete the following:
