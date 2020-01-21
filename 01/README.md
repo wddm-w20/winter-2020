@@ -49,12 +49,25 @@ All physical content (what we want the users to see) is created within the docum
 
 
 ## Shortcuts so far (some are Mac or VSCode specific)
+
+### VSCode
 - `cmd + s`: Save
 - `cmd + shift + n`: New window
 - `cmd + x`, `cmd + c`, `cmd + v`: Cut selection or line, Copy selection or line, Paste from clipboard
 - `ctrl + space`: Auto complete window
 - `alt + z`: Toggle line-wrap
 
+### Mac OS
+- Switch between windows
+- Switch between applications
+
+### Chrome
+- `cmd + n`: New tab
+- Get to url bar
+- `cmd + r`: Refresh
+- `cmd + i`: Developer tools (remember: `i` for "inspect")
+- `cmd + j`: Developer tools, console tab (remember: `j` for "javascript")
+- Tabbing
 
 ## In-class practice lab
 Complete the following:
