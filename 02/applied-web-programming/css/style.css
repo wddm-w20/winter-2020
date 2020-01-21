@@ -5,23 +5,52 @@
 - id
 */
 
-* {
-  /* Dont use this */
+body {
+  
+  color: #333;
+
+  font-weight: normal;
+  font-style: normal;
+  font-size: 1em;
+  line-height: 1.4;
+  font-family: helvetica, arial, sans-serif;
+  
+  font: 1em helvetica, arial, sans-serif;  /* <--- minimum requierd */
+  font: bold italic 1em helvetica, arial, sans-serif;
+  font: italic bold 1em helvetica, arial, sans-serif;
+
+  background-color: lightgrey;
+  background-image: url('../img/plant-bg.jpeg');
+  background-repeat: repeat;
+  background-size: contain;
+  background-position: center;
+  background-attachment: fixed;
+
+  letter-spacing: -0.1em;
 }
 
-body {
-  background-color: red;
-  background-color: #ff0000;
-  background-color: #f00;
-  background-color: hsl(0, 100%, 50%);
-  background-color: rgb(255,0,0);
-  background-color: lightgrey;
-  color: #333;
-  font-family: helvetica, arial, sans-serif;
-  line-height: 1.4;
-  /* background-image: url('../img/img_colormap.gif'); */
-  /* background-image: url('/img/img_colormap.gif'); */
+main {
+  background-color: rgba(255, 255, 255, 0.5);
 }
+
+a {
+  color: orange;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+a:visited {
+  color: teal;
+}
+
+.section-links {
+  color: lightseagreen;
+}
+
+.program-name {
+  font: bold 2em inherit;
+}
+
 
 
 .highlight { 
@@ -31,7 +60,7 @@ body {
 
 .main-heading {
   text-align: center;
-  font-weight: normal;
+  font-weight: normal;  /* normal (400) bold (700)  */
   font-style: italic;
 }
 

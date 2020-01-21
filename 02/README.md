@@ -30,6 +30,15 @@ Regardless of where you are linking from, the path is always the same because it
 2. Add an image to your document (use Photoshop to size the image if you wish; do not size the image using HTML)
 3. Using your best guess, create a menu with 3-4 direct links to other (made up) pages on this site, using the HTML elements you think best represent the semantics and structure learned to date. (Because you don't have other pages yet, you will assign the `href` a value of `"#"` as a placeholder)
 
+## "em" unit
+
+The unit `em` (pronounced *"m"*, like the letter) is a multiple of the current `font-size`. For the property `font-size`, the current size will typically be the inherited size.
+
+`em` can be used for any property that takes a size as its value (ie, not specific to just `font-size`). It is especially useful in determining spacing around a text-based element.
+
+To calculate the relative size of an `em` at any time, multiple the `font-size` value for every level of the document starting with the element itself, to it's parent, and upward to the `html` element.
+
+
 ## Still to come today
 - Review of your work
 - Section linking with `<a href="#">`
