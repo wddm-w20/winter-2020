@@ -51,7 +51,7 @@ As a team, determine your basics site styling. Choose:
 - 2-3 accent colours (use tools like <https://coolors.co/> or <https://colorhunt.co/> to help)
 - A complimentary foreground colour for each accent
 - 2 fonts, one from <https://fonts.google.com/> and one web safe font 
-  - Most commone web-safe fonts: Arial (sans-serif), Courier New (monospace), Georgia (serif), Times New Roman (serif), Verdana (sans-serif)
+  - Most common web-safe fonts: Arial (sans-serif), Courier New (monospace), Georgia (serif), Times New Roman (serif), Verdana (sans-serif)
   - Also considered _mostly_ web safe: 
     - Sans-serif: Roboto, Helvetica, Trebuchet MS, Gill Sans
     - Serif: Times, Didot, Palatino, American Typewriter
@@ -61,22 +61,22 @@ As a team, determine your basics site styling. Choose:
 
 Use CSS custom variables to define your main styles in a `:root` rule at the top of your CSS document. Consider a naming scheme that will capture your styling above in a systematic way. Example usage:
 
-```
+```css
 :root {
    --col-bg: #fff;
    --col-on-bg: #222;
    --col-accent-a: #5f6caf;
    --col-on-accent-a: #111;
-   [...etc]
+   /* [...etc] */
    --font-a: arial, helvetica, sans-serif;
-   [...etc]
+   /* [...etc] */
    --spacing: 1em;
 }
 
 body {
    background-color: var(--col-bg);
    color: var(--col-on-bg);
-   [...etc]
+   /* [...etc] */
 }
 ```
 
@@ -110,4 +110,6 @@ Next week
 ## Part 4: Separation of Style + Index Styling
 
 Next week
+
+
 
