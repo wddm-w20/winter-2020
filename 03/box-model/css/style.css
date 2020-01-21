@@ -9,10 +9,13 @@ body {
 
 .box {
   background-color: var(--accent-col);
-  line-height: 2;
+
+  /*
+  content-box: width/height are a measurement of the content only 
+  border-box: width/height are a measure of the entire physical box
+  */
+  box-sizing: border-box;
   width: auto;
   height: auto;
   padding: 1em;
-  border: 0.5em solid black;
-  /* border-radius: 1em; */
 }
