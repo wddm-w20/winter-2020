@@ -58,8 +58,8 @@ All physical content (what we want the users to see) is created within the docum
 - `alt + z`: Toggle line-wrap
 
 ### Mac OS
-- Switch between windows
-- Switch between applications
+- ``ctrl + ` ``: Switch between application windows
+- `ctrl + tab`: Switch between applications
 
 ### Chrome
 - `cmd + n`: New tab
