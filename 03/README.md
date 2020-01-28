@@ -5,3 +5,7 @@
 2. Review last week + Google Fonts (topic left over from last week's lesson)
 
 3. [In-class Assignment](./assignment.md) + Lessons interspersed (box model, layout, google fonts, review)
+
+
+
+

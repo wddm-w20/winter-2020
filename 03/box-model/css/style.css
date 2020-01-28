@@ -1,0 +1,47 @@
+:root {
+  --accent-col: coral;
+  --primary-font: helvetica, arial, sans-serif;
+}
+
+body {
+  font-family: var(--primary-font);
+  margin: 0;
+}
+
+.layout {
+  background-color: var(--accent-col);
+
+  /*
+  content-box: width/height are a measurement of the content only 
+  border-box: width/height are a measure of the entire physical box
+  */
+  box-sizing: border-box;
+  width: auto;
+  /* max-width: 60em; */
+  /* min-width: 40em; */
+  height: auto;
+  padding: 0 1em;
+  margin: 0 auto;
+}
+
+img {
+  /* width: auto; */
+  max-width: 100%;
+}
+
+.no-dots {
+  list-style: none;
+  padding: 0;
+  border-top: 0.5em solid lightblue;
+}
+
+.inline-list li {
+  display: inline-block;
+}
+
+/*
+FOR LAYOUTS, AVOID USING:
+display: inline
+display: inline-block
+float: left/right
+*/
