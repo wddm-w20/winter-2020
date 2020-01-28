@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:700&display=swap');
+
+/* Reset Properties (removing style) */
+body {
+  margin: 0;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 400;
+  font-size: 1em;
+  margin: 0;
+}
+
+/* Applies Styles (adding style) */
+body {
+  font: 1em helvetica, arial, sans-serif;
+}
+
+.sun { background-color: hotpink; }
+.mon { background-color: lightblue; }
+.tue { background-color: aquamarine; }
+.wed { background-color: lightcoral; }
+.thu { background-color: lightsalmon; }
+.fri { background-color: lightskyblue; }
+.sat { background-color: lightseagreen; }
+
+.weeknum {
+  text-align: center;
+  line-height: 2;
+  font-size: 1.25em;
+  text-transform: uppercase;
+  font-family: 'Yanone Kaffeesatz', helvetica, arial, sans-serif;
+  font-weight: 700;
+}
+.dow { /* day of week */
+  text-align: center;
+  line-height: 2;
+  text-transform: uppercase;
+  font-family: 'Yanone Kaffeesatz', helvetica, arial, sans-serif;
+  font-weight: 700;
+}
+
+/* .day {
+  display: inline-block;
+  width: 14.285714285714286%;
+} */
+
+.week {
+  background-color: lightgrey;
+  min-height: 10em;
+
+  display: flex;
+  /* flex-direction: row; */
+  /* align-items: stretch; */
+  /* justify-content: space-between; */
+}
+
+.day {
+  flex-basis: calc(100% / 7);
+  /* margin: 0 0.5em; */
+}
+
