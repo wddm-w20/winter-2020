@@ -104,8 +104,13 @@ Apply one of your accent colours (and it's compliment foreground colour) to the 
 
 ## Part 3: Index Content
 
-Next week
+Identify the parts of the `story.html` content that would also be present on other pages that are part of this site. Most obviously, things like logos, menus, footer, will be consistent across sites. 
 
+Begin by establishing a second html page (`index.html`) and maintaining that shared content and removing all other HTML to develop a template of sorts. Create content that will demonstrate a preview of 5 news items or stories. Each story preview must be structured identically, only differing in content (use unique content for titles and images at the very least). Each story must be wrapped in a single HTML element in a container with its only siblings being the other similarly structured story elements.
+
+It's generally wise to structure similar content, between the full story and the preview story, with identical HTML content elements and structure where possible.
+
+Do not modify any styling before completing your best attempt at the entire HTML page.
 
 ## Part 4: Separation of Style + Index Styling
 
