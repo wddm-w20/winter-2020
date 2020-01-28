@@ -1,0 +1,31 @@
+/* 
+display: 
+  none
+  inline
+  block
+  list-item
+  inline-block
+  flex 
+  grid
+*/
+
+p {
+  background-color: goldenrod;
+  display: block;
+}
+
+strong {
+  background-color: lightgreen;
+  display: inline-block;
+  /* width and height are ignored by inline elements */
+  /* padding and border applies horizontally, but not effective vertically */
+  /* margin applies horizontally, not vertically */
+  vertical-align: top;
+
+}
+
+p, strong {
+  box-sizing: content-box;
+  width: 50%;
+  padding: 1em;
+}

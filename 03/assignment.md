@@ -43,6 +43,8 @@ In this document you should include at least one example of each of the followin
 
 ## Part 2: Blog Styling
 
+🚨 **Note: Style the site as if it will only been viewed in a *small-width* viewport ("mobile" with portrait orientation).** 🚨
+
 ### General
 
 As a team, determine your basics site styling. Choose:
@@ -111,6 +113,8 @@ Begin by establishing a second html page (`index.html`) and maintaining that sha
 It's generally wise to structure similar content, between the full story and the preview story, with identical HTML content elements and structure where possible.
 
 Do not modify any styling before completing your best attempt at the entire HTML page.
+
+Before calling this step complete, consider other necessary components or content that would be required to provide a usable site and experience. For example, if many results are present, how are pages split up and made accessible ("pagination")? How will users search for content? If the `index.html` shows he results of a search, how can the results be filtered? (Use stand-in content and/or HTML comments to help prototype elements you have not yet created if unsure or uneasy).
 
 ## Part 4: Separation of Style + Index Styling
 

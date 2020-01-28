@@ -1,0 +1,21 @@
+nav {
+  background-color: dodgerblue;
+  display: block;
+}
+ul {
+  background-color: tomato;
+  display: block;
+  list-style-type: none;
+  padding-left: 0;
+  text-align: right;
+}
+li {
+  background-color: goldenrod;
+  width: auto;
+  display: inline;
+}
+a {
+  background-color: lightseagreen;
+  display: inline-block;
+  padding: 1em;
+}
