@@ -1,0 +1,30 @@
+.container {
+	background-color: grey;
+	width: 30em;
+	height: 30em;
+	display: grid;
+	grid-template-columns: 6fr 4fr 3fr 7fr;
+	grid-template-rows: 1fr 4fr 4fr 1fr;
+}
+.item {
+
+}
+.one { 
+	background-color: crimson; 
+
+	grid-row-start: 1;
+	grid-column-start: 1;
+	grid-row-end: 4;
+	grid-column-end: 2;
+
+	grid-row: 1 / span 3;
+	grid-column: 1 / 2;
+
+	grid-area: 1 / 1 / 4 / 2;
+}
+.two { background-color: coral; }
+.thr { background-color: gold; }
+.fou { background-color: greenyellow; }
+.fiv { background-color: mediumturquoise; }
+.six { background-color: cornflowerblue; }
+.sev { background-color: mediumpurple; }

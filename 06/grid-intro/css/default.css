@@ -1,0 +1,67 @@
+html, body {
+	height: 100%;
+}
+
+
+.container {
+	background-color: tomato;
+	display: grid;
+	grid-gap: 1em;
+	padding: 1em;
+	width: auto;
+	height: 100%;
+}
+
+.item {
+	background-color: lightslategray;
+	border: 0.25em solid darkslategray;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .item:first-child {
+	margin-top: 0;
+}
+.item:last-child {
+	margin-bottom: 0;
+}
+.item:nth-child(odd) {
+	color: white;
+}
+
+ */
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 40em) {
+	.container {
+		grid-template-columns: 1fr 1fr;
+	}
+}
+
+
+@media screen and (min-width: 50em) {
+	.container {
+		grid-template-columns: 1fr 1fr 1fr 1fr;
+	}
+	.item {
+		background-color: lightgreen;
+	}
+}
