@@ -1,0 +1,23 @@
+.container {
+	background-color: grey;
+	width: 30em;
+	height: 30em;
+	display: grid;
+	/* grid-template-columns: 6fr 4fr 3fr 7fr; */
+	grid-template-rows: 1fr 4fr 4fr 1fr;
+	grid-template-areas: 
+		"sidebar two two two" 
+		"sidebar thr thr thr" 
+		"sidebar fou fou fiv" 
+		"six     six sev sev";
+}
+.item {
+
+}
+.one { background-color: crimson;         grid-area: sidebar; }
+.two { background-color: coral;           grid-area: two; }
+.thr { background-color: gold;            grid-area: thr; }
+.fou { background-color: greenyellow;     grid-area: fou; }
+.fiv { background-color: mediumturquoise; grid-area: fiv; }
+.six { background-color: cornflowerblue;  grid-area: six; }
+.sev { background-color: mediumpurple;    grid-area: sev; }

@@ -2,12 +2,10 @@ body {
 	font-size: 1em;
 	font-family: helvetica;
 }
-
 input, button {
 	font-size: inherit;
 	font-family: inherit;
 }
-
 .form-component {
 	/* background-color: lightseagreen; */
 	/* padding: 1em; */

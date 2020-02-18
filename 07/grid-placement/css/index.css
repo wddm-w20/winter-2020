@@ -1,0 +1,44 @@
+.container {
+	background-color: grey;
+	display: grid;
+	text-align: justify;
+	width: 100%;
+}
+.item {
+	padding: 1em;
+}
+
+.one { background-color: crimson;         }
+.two { background-color: coral;           }
+.thr { background-color: gold;            }
+.fou { background-color: greenyellow;     }
+.fiv { background-color: mediumturquoise; }
+.six { background-color: cornflowerblue;  }
+.sev { background-color: mediumpurple;    }
+
+
+/* 
+align- (vertical)
+justify- (horizontal)
+place- (vertical and horizontal)
+
+-content (applied to the container, for the template)
+-items (applied to the container's items, for the cells)
+-self (applied to an item, for that cell only)
+
+*/
+
+
+@media screen and (min-width: 40em) {
+	.container {
+		grid-template-columns: 10em 10em;
+
+		justify-content: end;
+
+		/* align-items: start;
+		justify-items: center; */
+		place-items: start center;
+	}
+
+
+}

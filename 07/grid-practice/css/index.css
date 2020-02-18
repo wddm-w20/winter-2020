@@ -1,0 +1,76 @@
+.container {
+	background-color: grey;
+	display: grid;
+	text-align: justify;
+	width: 100%;
+}
+.item {
+	padding: 1em;
+}
+
+.one { background-color: crimson;         }
+.two { background-color: coral;           }
+.thr { background-color: gold;            }
+.fou { background-color: greenyellow;     }
+.fiv { background-color: mediumturquoise; }
+.six { background-color: cornflowerblue;  }
+.sev { background-color: mediumpurple;    }
+
+
+.item::before, .item::after {
+	content: "🙋🏽‍♀️";
+	display: inline-block;
+	width: 1em;
+	height: 2px;
+	background-color: black;
+	margin: 0 0.5em 0.25em 0.5em;
+}
+
+.check {
+	display: none;
+}
+.check-label {
+	display: inline-block;
+	width: 1em;
+	height: 1em;
+	background-color: red;
+}
+.check:checked + .check-label {
+	background-color: green;
+}
+
+
+
+/* 
+align- (vertical)
+justify- (horizontal)
+place- (vertical and horizontal)
+
+-content (applied to the container, for the template)
+-items (applied to the container's items, for the cells)
+-self (applied to an item, for that cell only)
+
+*/
+
+
+@media screen and (min-width: 40em) {
+	.container {
+		grid-template-columns: repeat(2, 1fr);
+		background-color: blueviolet;
+		padding: 1em;
+	}
+	.item:nth-child(n+7) {
+		display: none;
+	}
+}
+
+@media screen and (min-width: 52em) {
+	.container {
+		grid-template-columns: repeat(3, 1fr);
+		max-width: 52em;
+		margin: auto;
+	}
+	.item:nth-child(n) {
+		display: block;
+	}
+}
