@@ -14,11 +14,12 @@
 - 08:55 Setup and Intro
 - 09:15 One-on-ones for Composite 1
   - and compile list of "review" points
-- 10:45 Review: `grid`
-- 11:35 Lunch
-- 12:35 Lesson: `position`
-- 13:10 Review: other
-- 14:00 One-on-ones for Composite 1
+- 10:55 Review: Other
+- 11:50 Lunch
+- 12:50 Review: `grid`
+- 13:30 Lesson: `position`
+- 14:00 Review: Other
+- 14:30 One-on-ones for Composite 1
   - and collect links (code and live)
 - 15:15 End
 
