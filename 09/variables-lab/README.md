@@ -1,0 +1,2 @@
+# Javascript Variable Practice Lab
+
