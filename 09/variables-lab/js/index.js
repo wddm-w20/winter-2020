@@ -6,9 +6,29 @@ Complete the required JavaScript code underneath each "EXERCISE". In the end, yo
 //EXERCISE 1: The Fortune Teller
 //Why pay a fortune teller when you can just program your fortune yourself? Store the following into variables: job title, geographic location, annual salary, company name. Output your fortune to the screen like so: "You will be a X in Y, making $N for Z."
 
+let jobTitle = "Teacher"
+let geoLocation = "Toronto"
+let annSalary = 1000000000
+let companyName = "Humber"
+
+// Output to console
+console.log(`You will be a ${jobTitle} in ${geoLocation}, making $${annSalary} for ${companyName}.`)
+
+// Output to the document
+// Find the element
+let ex1output = document.querySelector('#ex1')
+ex1output.textContent = `You will be a ${jobTitle} in ${geoLocation}, making $${annSalary} for ${companyName}.`
+
+
+
+
 
 //EXERCISE 2: The Age Calculator
 //Forgot how old someone is? Calculate it! Store the current year in a variable. Store their birth year in a variable. Calculate their age based on the stored values. Output them to the screen like so: "They are NN years old.", substituting the values.
+
+
+let ex2output = document.querySelector('#ex2')
+
 
 
 //EXERCISE 3: The Lifetime Supply Calculator
