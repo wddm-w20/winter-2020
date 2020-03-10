@@ -1,18 +1,15 @@
-// Global Scope
-let name1 = `Jesse`
-let name2 = `Felice`
+let myFavouriteNumber = 5
 
+function multiplyTwoNumber(num1, num2) { 
 
-function sayHello(name) {  // Receive a parameter
-	
-	console.log(`Hello, ${name}!`)
+	// console.log(`The result of ${num1} * ${num2} is ${num1 * num2}`)
+
+	return num1 * num2
 
 }
 
 
-sayHello(name1)  // Send an argument
-sayHello(name2)  // Send an argument
-sayHello(`Milorad`)
 
+console.log(`My favourite number is ${myFavouriteNumber}`)
+console.log(`The result of 4 * 5 is ${multiplyTwoNumber(4,5)}`)
 
-// The argument/parameter is like a portal between the global world (or the world it was called from) to the local function scope
