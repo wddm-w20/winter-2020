@@ -1,21 +1,18 @@
 // Global Scope
-let name = `Humber`
-let numTimesExecuted = 0
+let name1 = `Jesse`
+let name2 = `Felice`
 
-function sayHello() {
 
-	// Local sayHello scope
-	let greeting = `Hello`
-
+function sayHello(name) {  // Receive a parameter
 	
-	numTimesExecuted = numTimesExecuted + 1
-
-	console.log(`${numTimesExecuted}: ${greeting}, ${name}!`)
+	console.log(`Hello, ${name}!`)
 
 }
 
-sayHello()
-sayHello()
-sayHello()
-sayHello()
-sayHello()
+
+sayHello(name1)  // Send an argument
+sayHello(name2)  // Send an argument
+sayHello(`Milorad`)
+
+
+// The argument/parameter is like a portal between the global world (or the world it was called from) to the local function scope
